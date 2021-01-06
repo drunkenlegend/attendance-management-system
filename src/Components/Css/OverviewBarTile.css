@@ -1,0 +1,20 @@
+.OverviewBarTile{
+    position: relative;
+    display: inline;
+    border: #acadb8 solid 1px;
+    border-radius: 5px;
+    width: 200px;
+    height: 85px;
+    justify-content: center;
+    /* overflow-x: scroll; */
+}
+.OverviewBarTile p,h1{
+    margin: 10px;
+    text-align: center;
+    color: #9FA2B4;
+}
+.OverviewBarTile h1{
+    margin-bottom: 5px;
+    margin-top: 15px;
+    color: #252733;
+}

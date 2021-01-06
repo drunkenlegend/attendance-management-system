@@ -37,7 +37,7 @@
     /* identical to box height */
     justify-content: flex-start;
     align-self: center;
-    left: 15%;
+    left: 25%;
     letter-spacing: 0.2px;
     padding: 2px;
 }
@@ -46,7 +46,7 @@
     position: absolute;
     display: flex;
     top: calc(50% - 27px/2);
-    left: 7%;
+    left: 15%;
 }
 #icon{
     color: white;

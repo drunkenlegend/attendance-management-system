@@ -1,12 +1,21 @@
 import React, { Component } from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import 'boxicons';
+import './Css/TopAll.css';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default class TopAll extends Component {
     render() {
         return (
-            <div>
-                <h3>{this.props.value}</h3>
-                <FontAwesomeIcon icon="coffee" />
+            <div className='topAll'>
+                <div className='title'>
+                    <h3>{this.props.value}</h3>
+                </div>
+                <div className='profile'>
+                    <box-icon   name='notification'  ></box-icon>
+                    <h4>NL. Bhanumurthy</h4>
+                    <box-icon  className='imgIcon' name='image-alt' type='solid' ></box-icon>
+                </div>
+
             </div>
         )
     }
