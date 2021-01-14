@@ -6,6 +6,8 @@
     border: #acadb8 solid 1px;
     border-radius: 5px;
     height: 55%;
+    background: white;
+
     /* padding :10px; */
 }
 .OverviewMain .left{

@@ -6,6 +6,7 @@
     width: 200px;
     height: 85px;
     justify-content: center;
+    background: white;
     /* overflow-x: scroll; */
 }
 .OverviewBarTile p,h1{
@@ -17,4 +18,16 @@
     margin-bottom: 5px;
     margin-top: 15px;
     color: #252733;
+}
+.OverviewBarTile:hover > h1  {
+    color: #3751FF;
+
+}
+.OverviewBarTile:hover > p  {
+    color: #3751FF;
+
+}
+.OverviewBarTile:hover  {
+    border: #3751FF  solid 1px;
+
 }
